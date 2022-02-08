@@ -21,6 +21,6 @@ acc_header.forEach(items => {
         }else{
             items.nextElementSibling.style.height = '0px';
         }
-    })
+    });
 });
 

@@ -242,3 +242,55 @@ a:hover {
     padding: 10px 15px;
 }
 .sufian-accordion .accordion-item .accordion-body .accordion-content p {}
+
+
+
+
+/* Custom-tab-css */
+
+.sufian-tab {
+    width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: var(--shadow-3);
+    padding: 20px;
+}
+.sufian-tab .tab-menu {}
+.sufian-tab .tab-menu ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+.sufian-tab .tab-menu ul li {
+    display: block;
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+
+
+}
+.sufian-tab .tab-menu ul li a {
+    display: block;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+.sufian-tab .tab-menu ul li a.active {
+    border: none;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+}
+.sufian-tab .tab-body {
+    margin-top: 20px;
+}
+.sufian-tab .tab-body .tab-pane {
+    display: none;
+}
+.sufian-tab .tab-body .tab-pane.active {
+    display: block;
+}
+.sufian-tab .tab-body h2 {}
+.sufian-tab .tab-body p {}
+
